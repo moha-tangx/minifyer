@@ -1,0 +1,17 @@
+{
+  "name": "min",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types index.ts",
+    "test": "node --experimental-strip-types --no-warnings --test ./test.test.ts"
+  },
+  "keywords": [
+    "minify",
+    "minification"
+  ],
+  "author": "moha_tangx",
+  "license": "ISC",
+  "description": "minifies a file"
+}
